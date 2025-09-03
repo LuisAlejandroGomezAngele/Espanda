@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: "Expanda | ERP con Facturación CFDI, Inventarios y POS para PYMES en México",
   description:
     "Impulsa tu negocio con Expanda ERP: facturación electrónica CFDI 4.0, inventarios, compras, cuentas por cobrar y pagar, y punto de venta. Implementación rápida y soporte cercano para PYMES mexicanas.",
+  icons: {
+    icon: "/Expanda_Isotipo.png",         // clásico
+    shortcut: "/Expanda_Isotipo.png",
+    apple: "/Expanda_Isotipo.png",        // para iOS
+  },
   keywords: [
     "ERP México",
     "ERP PYMES",
