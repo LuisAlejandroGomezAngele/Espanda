@@ -87,9 +87,10 @@ Mensaje: ${message ?? ""}`,
     }
 
     return NextResponse.json({ ok: true });
-  } catch (e: any) {
+  } catch (e: unknown) {
+    const message = e instanceof Error ? e.message : "Error desconocido";
     return NextResponse.json(
-      { ok: false, error: e?.message ?? "Error desconocido" },
+      { ok: false, error: message },
       { status: 500 }
     );
   }

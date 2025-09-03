@@ -4,7 +4,6 @@ import { Services } from "@/components/sections/Services";
 import { About } from "@/components/sections/About";
 import { Process } from "@/components/sections/Process";
 import { FAQ } from "@/components/sections/FAQ";
-import { BlogGrid } from "@/components/sections/BlogGrid";
 import { Contact } from "@/components/sections/Contact";
 
 export default function Page(){

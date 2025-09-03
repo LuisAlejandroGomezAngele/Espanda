@@ -57,8 +57,9 @@ export function Contact() {
       } else {
         setState({ loading: false, ok: false, error: data.error });
       }
-    } catch (err:any) {
-      setState({loading:false, ok:false, error:err?.message});
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : "Error desconocido";
+      setState({ loading:false, ok:false, error: message });
     }
   }
 

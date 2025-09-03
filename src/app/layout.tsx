@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://expandasoftware.com/"),
   title: "Expanda | ERP con Facturación CFDI, Inventarios y POS para PYMES en México",
   description:
     "Impulsa tu negocio con Expanda ERP: facturación electrónica CFDI 4.0, inventarios, compras, cuentas por cobrar y pagar, y punto de venta. Implementación rápida y soporte cercano para PYMES mexicanas.",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_MX",
-    url: "https://www.expanda.mx",
+    url: "https://expandasoftware.com/",
     title: "Expanda | ERP para PYMES en México",
     description:
       "ERP moderno para PYMES con CFDI, inventarios, compras, CxC, CxP y POS.",
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
     images: ["/images/og-image.png"],
   },
   alternates: {
-    canonical: "https://www.expanda.mx",
+    canonical: "https://expandasoftware.com/",
   },
 };
 
