@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/Expanda_Isotipo.png",         // clásico
     shortcut: "/Expanda_Isotipo.png",
-    apple: "/Expanda_Isotipo.png",        // para iOS
+    apple: "/Expanda_Isotipo.png",     
   },
   keywords: [
     "ERP México",
